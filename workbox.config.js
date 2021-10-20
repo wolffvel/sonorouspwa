@@ -1,6 +1,6 @@
 module.exports = {
   InjectManifest: (options) => {
-    options.maximumFileSizeToCacheInBytes = 25 * 1024 * 1024;
+    options.maximumFileSizeToCacheInBytes = 26214400;
     return options;
   },
 };
